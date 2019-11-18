@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WHYMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController *rootNavVC = [[UINavigationController alloc]initWithRootViewController:[[WHYMainViewController alloc]init]];
+    self.window.rootViewController = rootNavVC;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    //这里还要找到info.plist -> MainStoryboard file base name 删掉这个属性
     return YES;
 }
 
