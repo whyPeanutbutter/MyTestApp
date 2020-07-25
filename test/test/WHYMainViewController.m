@@ -11,13 +11,7 @@
 @interface WHYMainViewController ()
 
 @end
-
-
-sadsdfsdfsdc
-
-
-asdasd
-
+//commit1
 @implementation WHYMainViewController
 
 - (void)viewDidLoad {
