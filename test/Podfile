@@ -7,5 +7,7 @@ target 'test' do
 
   # Pods for test
    pod 'Masonry'
+#   pod 'mobile-ffmpeg-min'
+#   pod 'FFIJKMediaFramework', '0.0.3'
 
 end

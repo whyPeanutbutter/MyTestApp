@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WHYMainViewController.h"
+#import "ffmpeg.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +24,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     //这里还要找到info.plist -> MainStoryboard file base name 删掉这个属性
+    
     return YES;
 }
 
