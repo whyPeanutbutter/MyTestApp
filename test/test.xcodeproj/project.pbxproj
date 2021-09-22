@@ -15,6 +15,7 @@
 		7E41CD582589F091003FC9CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E41CD572589F091003FC9CD /* AVFoundation.framework */; };
 		7E41CD5A2589F0A3003FC9CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E41CD592589F0A3003FC9CD /* CoreMedia.framework */; };
 		7E5DE2E226FABF8500844873 /* ELUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE2E126FABF8500844873 /* ELUserInfo.m */; };
+		7E5DE2E526FADA6600844873 /* ELProductItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE2E426FADA6500844873 /* ELProductItemView.m */; };
 		7ED38CCA238231D300D7DE88 /* WHYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED38CC9238231D300D7DE88 /* WHYMainViewController.m */; };
 		96F1389821F70052001DFA07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F1389721F70052001DFA07 /* AppDelegate.m */; };
 		96F138A021F70055001DFA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F1389F21F70055001DFA07 /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 		7E41CD592589F0A3003FC9CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7E5DE2E026FABF8500844873 /* ELUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELUserInfo.h; sourceTree = "<group>"; };
 		7E5DE2E126FABF8500844873 /* ELUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELUserInfo.m; sourceTree = "<group>"; };
+		7E5DE2E326FADA6500844873 /* ELProductItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELProductItemView.h; sourceTree = "<group>"; };
+		7E5DE2E426FADA6500844873 /* ELProductItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELProductItemView.m; sourceTree = "<group>"; };
 		7ED38CC8238231D300D7DE88 /* WHYMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHYMainViewController.h; sourceTree = "<group>"; };
 		7ED38CC9238231D300D7DE88 /* WHYMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHYMainViewController.m; sourceTree = "<group>"; };
 		96ED86840A741D1FC4916E4E /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				7E5DE2E026FABF8500844873 /* ELUserInfo.h */,
 				7E5DE2E126FABF8500844873 /* ELUserInfo.m */,
 				96F138A421F70055001DFA07 /* Info.plist */,
+				7E5DE2E326FADA6500844873 /* ELProductItemView.h */,
+				7E5DE2E426FADA6500844873 /* ELProductItemView.m */,
 				96F138A521F70055001DFA07 /* main.m */,
 				7ED38CCB238239DB00D7DE88 /* WHYImage */,
 			);
@@ -248,6 +253,7 @@
 			files = (
 				96F138A621F70055001DFA07 /* main.m in Sources */,
 				7ED38CCA238231D300D7DE88 /* WHYMainViewController.m in Sources */,
+				7E5DE2E526FADA6600844873 /* ELProductItemView.m in Sources */,
 				96F1389821F70052001DFA07 /* AppDelegate.m in Sources */,
 				7E5DE2E226FABF8500844873 /* ELUserInfo.m in Sources */,
 			);
